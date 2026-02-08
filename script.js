@@ -41,11 +41,7 @@ window.addEventListener('scroll', () => {
 const style = document.createElement('style');
 style.textContent = `
     .nav-link.active {
-        color: var(--accent-color);
-    }
-    
-    .nav-link.active::after {
-        width: 100%;
+        color: var(--rose);
     }
 `;
 document.head.appendChild(style);
@@ -70,5 +66,3 @@ document.querySelectorAll('section').forEach(section => {
     section.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
     observer.observe(section);
 });
-
-console.log('Portfolio site loaded successfully!');
