@@ -111,8 +111,8 @@ body {
     min-height: 600px;
     display: flex;
     align-items: center;
-    justify-content: center;
-    text-align: center;
+    justify-content: space-between;
+    gap: 60px;
     padding: 60px 20px;
     position: relative;
     overflow: hidden;
@@ -140,9 +140,27 @@ body {
     opacity: 0.1;
 }
 
-.hero-content {
+.hero-photo {
+    flex: 1;
     position: relative;
     z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 10px 40px rgba(19, 3, 3, 0.3);
+}
+
+.hero-content {
+    flex: 1;
+    position: relative;
+    z-index: 1;
+    text-align: left;
 }
 
 .hero-content h1 {
