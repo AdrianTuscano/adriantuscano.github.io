@@ -326,6 +326,14 @@ body {
     padding: 40px;
     border-radius: 12px;
     border: 1px solid #e5e7eb;
+    min-height: 350px;
+    display: flex;
+    flex-direction: column;
+}
+
+.slides-container iframe {
+    flex-grow: 1;
+    min-height: 250px;
 }
 
 .slides-container p {
