@@ -309,6 +309,11 @@ body {
     font-weight: 500;
 }
 
+.project-text {
+    grid-column: 1 / -1;
+    margin-top: 20px;
+}
+
 .project-text p {
     font-size: 1.05rem;
     line-height: 1.8;
@@ -321,7 +326,6 @@ body {
     padding: 40px;
     border-radius: 12px;
     border: 1px solid #e5e7eb;
-    margin-top: 40px;
 }
 
 .slides-container p {
